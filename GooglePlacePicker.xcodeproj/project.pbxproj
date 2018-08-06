@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C2E9166211874060037E426 /* DetailCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E9165211874060037E426 /* DetailCollectionCell.swift */; };
+		3CCCA98B211735D70093FA8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCA98A211735D70093FA8C /* AppDelegate.swift */; };
+		3CCCA990211735D70093FA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCCA98E211735D70093FA8C /* Main.storyboard */; };
+		3CCCA992211735D90093FA8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCCA991211735D90093FA8C /* Assets.xcassets */; };
+		3CCCA995211735D90093FA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCCA993211735D90093FA8C /* LaunchScreen.storyboard */; };
+		3CCCA9A1211739600093FA8C /* WebManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCA9A0211739600093FA8C /* WebManager.swift */; };
+		3CCCA9A8211739C00093FA8C /* PlaceSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCA9A7211739C00093FA8C /* PlaceSearchVC.swift */; };
+		3CCCA9AA211739D00093FA8C /* SearchDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCA9A9211739D00093FA8C /* SearchDetailsVC.swift */; };
+		3CCCA9B52117522D0093FA8C /* SearchListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCA9B42117522D0093FA8C /* SearchListModel.swift */; };
+		3CCCA9B72117523E0093FA8C /* PlaceDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCA9B62117523E0093FA8C /* PlaceDetailModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C2E9165211874060037E426 /* DetailCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionCell.swift; sourceTree = "<group>"; };
+		3CCCA987211735D70093FA8C /* GooglePlacePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePlacePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CCCA98A211735D70093FA8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CCCA98F211735D70093FA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CCCA991211735D90093FA8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CCCA994211735D90093FA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CCCA996211735D90093FA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCCA9A0211739600093FA8C /* WebManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebManager.swift; sourceTree = "<group>"; };
+		3CCCA9A7211739C00093FA8C /* PlaceSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchVC.swift; sourceTree = "<group>"; };
+		3CCCA9A9211739D00093FA8C /* SearchDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailsVC.swift; sourceTree = "<group>"; };
+		3CCCA9B42117522D0093FA8C /* SearchListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListModel.swift; sourceTree = "<group>"; };
+		3CCCA9B62117523E0093FA8C /* PlaceDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CCCA984211735D70093FA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CCCA97E211735D70093FA8C = {
+			isa = PBXGroup;
+			children = (
+				3CCCA989211735D70093FA8C /* GooglePlacePicker */,
+				3CCCA988211735D70093FA8C /* Products */,
+				7F2590C66BCDC5E850918D0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CCCA988211735D70093FA8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CCCA987211735D70093FA8C /* GooglePlacePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CCCA989211735D70093FA8C /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3CCCA9AB21173ADF0093FA8C /* Model */,
+				3CCCA9A6211739960093FA8C /* Controller */,
+				3CCCA99F2117394A0093FA8C /* Web Manager */,
+				3CCCA98A211735D70093FA8C /* AppDelegate.swift */,
+				3CCCA98E211735D70093FA8C /* Main.storyboard */,
+				3CCCA991211735D90093FA8C /* Assets.xcassets */,
+				3CCCA993211735D90093FA8C /* LaunchScreen.storyboard */,
+				3CCCA996211735D90093FA8C /* Info.plist */,
+				3C2E9165211874060037E426 /* DetailCollectionCell.swift */,
+			);
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		3CCCA99F2117394A0093FA8C /* Web Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3CCCA9A0211739600093FA8C /* WebManager.swift */,
+			);
+			path = "Web Manager";
+			sourceTree = "<group>";
+		};
+		3CCCA9A6211739960093FA8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CCCA9A7211739C00093FA8C /* PlaceSearchVC.swift */,
+				3CCCA9A9211739D00093FA8C /* SearchDetailsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3CCCA9AB21173ADF0093FA8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CCCA9B42117522D0093FA8C /* SearchListModel.swift */,
+				3CCCA9B62117523E0093FA8C /* PlaceDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F2590C66BCDC5E850918D0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CCCA986211735D70093FA8C /* GooglePlacePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CCCA999211735D90093FA8C /* Build configuration list for PBXNativeTarget "GooglePlacePicker" */;
+			buildPhases = (
+				3CCCA983211735D70093FA8C /* Sources */,
+				3CCCA984211735D70093FA8C /* Frameworks */,
+				3CCCA985211735D70093FA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePlacePicker;
+			productName = GooglePlacePicker;
+			productReference = 3CCCA987211735D70093FA8C /* GooglePlacePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CCCA97F211735D70093FA8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = gangadhar;
+				TargetAttributes = {
+					3CCCA986211735D70093FA8C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 3CCCA982211735D70093FA8C /* Build configuration list for PBXProject "GooglePlacePicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CCCA97E211735D70093FA8C;
+			productRefGroup = 3CCCA988211735D70093FA8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CCCA986211735D70093FA8C /* GooglePlacePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CCCA985211735D70093FA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCCA995211735D90093FA8C /* LaunchScreen.storyboard in Resources */,
+				3CCCA992211735D90093FA8C /* Assets.xcassets in Resources */,
+				3CCCA990211735D70093FA8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CCCA983211735D70093FA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCCA9B52117522D0093FA8C /* SearchListModel.swift in Sources */,
+				3CCCA9AA211739D00093FA8C /* SearchDetailsVC.swift in Sources */,
+				3CCCA98B211735D70093FA8C /* AppDelegate.swift in Sources */,
+				3CCCA9A8211739C00093FA8C /* PlaceSearchVC.swift in Sources */,
+				3C2E9166211874060037E426 /* DetailCollectionCell.swift in Sources */,
+				3CCCA9B72117523E0093FA8C /* PlaceDetailModel.swift in Sources */,
+				3CCCA9A1211739600093FA8C /* WebManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CCCA98E211735D70093FA8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CCCA98F211735D70093FA8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CCCA993211735D90093FA8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CCCA994211735D90093FA8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CCCA997211735D90093FA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CCCA998211735D90093FA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CCCA99A211735D90093FA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GooglePlacePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gangadhar.com.GooglePlacePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CCCA99B211735D90093FA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GooglePlacePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gangadhar.com.GooglePlacePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CCCA982211735D70093FA8C /* Build configuration list for PBXProject "GooglePlacePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CCCA997211735D90093FA8C /* Debug */,
+				3CCCA998211735D90093FA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CCCA999211735D90093FA8C /* Build configuration list for PBXNativeTarget "GooglePlacePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CCCA99A211735D90093FA8C /* Debug */,
+				3CCCA99B211735D90093FA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CCCA97F211735D70093FA8C /* Project object */;
+}
